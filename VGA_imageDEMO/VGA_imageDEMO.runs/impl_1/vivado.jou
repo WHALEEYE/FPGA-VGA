@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec 25 01:02:32 2020
+# Process ID: 22212
+# Current directory: D:/Documents/ILoveStudy/VivadoProjects/VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.runs/impl_1
+# Command line: vivado.exe -log vga_draw.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source vga_draw.tcl -notrace
+# Log file: D:/Documents/ILoveStudy/VivadoProjects/VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.runs/impl_1/vga_draw.vdi
+# Journal file: D:/Documents/ILoveStudy/VivadoProjects/VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source vga_draw.tcl -notrace

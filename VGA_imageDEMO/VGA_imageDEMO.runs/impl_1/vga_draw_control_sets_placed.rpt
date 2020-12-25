@@ -1,0 +1,82 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Dec 25 00:56:11 2020
+| Host         : AIRCRAFT-CARRIER running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file vga_draw_control_sets_placed.rpt
+| Design       : vga_draw
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    64 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              11 |            6 |
+| No           | No                    | Yes                    |             194 |           79 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             139 |           38 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------------------------+-----------------------------------------------------+------------------+----------------+
+|       Clock Signal       |              Enable Signal              |                   Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++--------------------------+-----------------------------------------+-----------------------------------------------------+------------------+----------------+
+|  u_vag_pll/inst/clk_out1 | u_vga_driver/R_ram_addr_a_reg[0][0]     | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                1 |              1 |
+|  sys_clk_IBUF_BUFG       | MSr/SI/add_cnt1                         | MSr/CmdPsr/choice_reg[0]_0                          |                2 |              4 |
+|  u_vag_pll/inst/clk_out1 | u_vga_display_draw/ena_point            | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                2 |             10 |
+|  u_vag_pll/inst/clk_out1 | u_vga_display_draw/ena_rect             | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                3 |             10 |
+|  u_vag_pll/inst/clk_out1 | u_vga_display_draw/ena_line_reg_n_0_[0] | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                2 |             10 |
+|  u_vag_pll/inst/clk_out1 | u_vga_display_draw/ena_circle           | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                2 |             10 |
+|  u_vag_pll/inst/clk_out1 | u_vga_driver/cnt_v                      | u_vga_display_draw/R_ram_addr_b_reg[2]_0            |                2 |             10 |
+|  u_vag_pll/inst/clk_out1 |                                         |                                                     |                6 |             11 |
+|  sys_clk_IBUF_BUFG       |                                         | MSr/CmdPsr/choice_reg[0]_0                          |                7 |             13 |
+|  u_vag_pll/inst/clk_out1 | MSr/E[0]                                | u_vga_display_draw/u_draw_point/pixel_data_reg[0]_1 |                4 |             14 |
+|  u_vag_pll/inst/clk_out1 |                                         | u_vga_display_draw/R_ram_addr_b_reg[2]_0            |               11 |             22 |
+|  sys_clk_IBUF_BUFG       | MSr/SI/flag_add                         | MSr/CmdPsr/choice_reg[0]_0                          |                8 |             32 |
+|  u_vag_pll/inst/clk_out1 | u_vga_driver/R_ram_addr_a_reg[0][0]     | u_vga_display_draw/R_ram_addr_b_reg[2]_0            |               12 |             38 |
+|  dout_vld                |                                         | MSr/CmdPsr/cmd_cnt_reg[7]_0                         |               13 |             41 |
+|  dout_vld                |                                         | MSr/CmdPsr/choice_reg[0]_0                          |               21 |             55 |
+|  ena                     |                                         | MSr/CmdPsr/cmd_cnt_reg[7]_0                         |               27 |             63 |
++--------------------------+-----------------------------------------+-----------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 4      |                     1 |
+| 10     |                     5 |
+| 11     |                     1 |
+| 13     |                     1 |
+| 14     |                     1 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

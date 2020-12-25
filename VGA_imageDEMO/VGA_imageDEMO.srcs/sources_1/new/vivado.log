@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 22 21:51:03 2020
+# Process ID: 2896
+# Current directory: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20168 F:\VGA\VGA_imageDEMO\VGA_imageDEMO.srcs\sources_1\new\VGA.xpr
+# Log file: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vivado.log
+# Journal file: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/86189/Desktop/Assignment/VGA' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.srcs/sources_1/new/vga_display.v', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.srcs/sources_1/new/vga_display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.srcs/sources_1/new/vga_driver.v', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.srcs/sources_1/new/vga_driver.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.srcs/sources_1/new/vga_colorbar.v', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.srcs/sources_1/new/vga_colorbar.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.srcs/constrs_1/new/colourBar.xdc', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.srcs/constrs_1/new/colourBar.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.srcs/sources_1/ip/vga_pll/vga_pll.xci', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.srcs/sources_1/ip/vga_pll/vga_pll.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'vga_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.ip_user_files', nor could it be found using path 'C:/Users/86189/Desktop/Assignment/VGA/VGA.ip_user_files'.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'vga_pll'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 22 21:51:46 2020...

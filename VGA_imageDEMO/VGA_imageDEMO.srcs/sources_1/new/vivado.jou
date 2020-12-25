@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 22 21:51:03 2020
+# Process ID: 2896
+# Current directory: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20168 F:\VGA\VGA_imageDEMO\VGA_imageDEMO.srcs\sources_1\new\VGA.xpr
+# Log file: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vivado.log
+# Journal file: F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/VGA.xpr
+update_compile_order -fileset sources_1
