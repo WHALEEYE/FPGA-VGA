@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1608828797">
   <File Type="PA-TCL" Name="vga_draw.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="vga_draw_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="vga_draw_reports.tcl"/>
   <File Type="RDS-RDS" Name="vga_draw.vds"/>
   <File Type="RDS-UTIL" Name="vga_draw_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="vga_draw_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="vga_draw.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="vga_draw_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="vga_draw_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/vga_pll/vga_pll.xci">
@@ -112,7 +109,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/vga_display.v">
+    <File Path="$PPRDIR/../../VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vga_display.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -120,7 +117,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/vga_colorbar.v">
+    <File Path="$PPRDIR/../../VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vga_colorbar.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="D:/Documents/ILoveStudy/VivadoProjects/VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.xpr">
+<Project Version="7" Minor="35" Path="D:/Documents/ILoveStudy/VivadoProjects/VGA_Draw/VGA_imageDEMO/VGA_imageDEMO.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="2e5a476d57a946db9660195236f1a504"/>
@@ -191,7 +191,6 @@
       <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
         <FileInfo>
           <Attr Name="UserDisabled" Val="1"/>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

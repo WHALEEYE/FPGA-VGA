@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1608828797">
-  <File Type="PWROPT-DCP" Name="vga_draw_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="vga_draw_power_routed.rpt"/>
   <File Type="PA-TCL" Name="vga_draw.tcl"/>
+  <File Type="PWROPT-DCP" Name="vga_draw_pwropt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="vga_draw_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="vga_draw_reports.tcl"/>
   <File Type="BG-DRC" Name="vga_draw.drc"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="vga_draw_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="vga_draw_timing_summary_init.rpt"/>
   <File Type="OPT-HWDEF" Name="vga_draw.hwdef"/>
   <File Type="OPT-DCP" Name="vga_draw_opt.dcp"/>
   <File Type="OPT-DRC" Name="vga_draw_drc_opted.rpt"/>
-  <File Type="OPT-TIMING" Name="vga_draw_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="vga_draw_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="vga_draw_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="vga_draw_placed.dcp"/>
   <File Type="PLACE-IO" Name="vga_draw_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="vga_draw_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="vga_draw_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="vga_draw_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="vga_draw_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="vga_draw_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="vga_draw_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="vga_draw_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="vga_draw_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="vga_draw_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="vga_draw_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="vga_draw_drc_physopted.rpt"/>
   <File Type="BG-BIT" Name="vga_draw.bit"/>
-  <File Type="PHYSOPT-TIMING" Name="vga_draw_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="vga_draw_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="vga_draw_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="vga_draw_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="vga_draw_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="vga_draw_drc_routed.pb"/>
-  <File Type="BITSTR-MSK" Name="vga_draw.msk"/>
   <File Type="ROUTE-DRC-RPX" Name="vga_draw_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="vga_draw.bgn"/>
+  <File Type="BITSTR-MSK" Name="vga_draw.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="vga_draw_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-RBT" Name="vga_draw.rbt"/>
+  <File Type="BG-BGN" Name="vga_draw.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vga_draw_methodology_drc_routed.rpx"/>
-  <File Type="BG-BIN" Name="vga_draw.bin"/>
+  <File Type="BITSTR-RBT" Name="vga_draw.rbt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vga_draw_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="vga_draw.bin"/>
   <File Type="ROUTE-PWR-RPX" Name="vga_draw_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="vga_draw_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="vga_draw_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="vga_draw_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="vga_draw_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="vga_draw_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="vga_draw_incremental_reuse_routed.rpt"/>
-  <File Type="RDI-RDI" Name="vga_draw.vdi"/>
   <File Type="ROUTE-CLK" Name="vga_draw_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="vga_draw.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="vga_draw_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vga_draw_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vga_draw_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vga_draw_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vga_draw_timing_summary_postroute_physopted.rpx"/>
   <File Type="BITSTR-NKY" Name="vga_draw.nky"/>
   <File Type="BITSTR-BMM" Name="vga_draw_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="vga_draw.mmi"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="vga_draw.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="vga_draw.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -166,7 +150,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/vga_display.v">
+    <File Path="$PPRDIR/../../VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vga_display.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -174,7 +158,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/vga_colorbar.v">
+    <File Path="$PPRDIR/../../VGA3/VGA/VGA_imageDEMO/VGA_imageDEMO.srcs/sources_1/new/vga_colorbar.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
